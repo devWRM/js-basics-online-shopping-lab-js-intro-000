@@ -71,7 +71,7 @@ function removeFromCart(item) {
 
 
 
-  
+
 }
 
 
