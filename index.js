@@ -93,6 +93,7 @@ function placeOrder(cardNumber) {
   	var cost = function total();
   	var receipt = `Your total cost is $${cost}, which will be charged to the card ${cardNumber}.`;
 
+    cart = [];
   	return receipt;
 
 }
