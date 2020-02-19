@@ -87,13 +87,13 @@ function placeOrder(cardNumber) {
   // write your code here
 
   if (!cardNumber) {
-  		return `Sorry, we don't have a credit card on file for you.`;
-  	}
+		return `Sorry, we don't have a credit card on file for you.`;
+	}
+	
+	
+	var receipt = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`;
 
-  	var cost = function total();
-  	var receipt = `Your total cost is $${cost}, which will be charged to the card ${cardNumber}.`;
-
-    cart = [];
-  	return receipt;
+	cart = [];
+	return receipt;
 
 }
